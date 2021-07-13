@@ -20,3 +20,9 @@ function addList() {
     todo.value = ""; // todo 등록 후 input칸 비우기  
     todo.focus(); // 포커스 이동
 }
+
+function press(f){
+    if(f.keyCode == 13){
+        formname.submit();
+    }
+}
