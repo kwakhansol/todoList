@@ -22,7 +22,7 @@ function addList() {
 }
 
 function enterkey(){
-    if(window.event.keyCode == 13){
-        listItem();
+    if (window.event.keyCode == 13) {
+        addList();
     }
 }
