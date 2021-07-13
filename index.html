@@ -15,7 +15,7 @@
         <div class="input-group">
             <input id="item" class="form-control" type="text" placeholder="할일을 입력하세요" style="margin-right:10px;">
             
-            <button id="newBtn" type="button" class="btn btn-info" onclick="addList()">추가</button>
+            <button id="newBtn" type="button" title="submit" class="btn btn-info" onclick="addList()" onkeypress="JavaScript:press(this.form)">추가</button>
         </div>
         <hr>
         <ul id="todolist" class="list-group"></ul>
