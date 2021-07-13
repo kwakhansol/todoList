@@ -4,3 +4,4 @@
 - Document.createElement( ) 메서드를 이용해 지정한 tagName의 HTML요소를 만들어 반환.
 - e.target.parentNode 으로 button 가져오고 자식요를 제거.
 - node.appendChild node 객체를 받아와서 li에 노드를 추가.
+- 키보드이벤트인 onkeyup을 이용해 엔터키 누르면 todo등록되도록. 
