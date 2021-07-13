@@ -21,8 +21,8 @@ function addList() {
     todo.focus(); // 포커스 이동
 }
 
-function press(f){
-    if(f.keyCode == 13){
-        formname.submit();
+function enterkey(){
+    if(window.event.keyCode == 13){
+        listItem();
     }
 }
